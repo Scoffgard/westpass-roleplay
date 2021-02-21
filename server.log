@@ -1,0 +1,21 @@
+[18:23:25] alt:V Server 2.12 (release)
+[18:23:25] Starting WestPassRP DEV on 0.0.0.0:7788
+[18:23:25] Loading resource chat
+[18:23:25] Loaded resource chat
+[18:23:25] Loading resource main
+[18:23:25] Loaded resource main
+[18:23:25] Required server permissions:
+[18:23:25] Optional server permissions:
+[18:23:25] Starting HTTP server on 0.0.0.0:7788
+[18:23:25] Main thread started (ThreadId: 14584)
+[18:23:25] Colshape thread started (ThreadId: 13268)
+[18:23:25] EntityStreamer thread started (ThreadId: 23408)
+[18:23:25] Network thread started (ThreadId: 21136)
+[18:23:25] Console thread started (ThreadId: 5480)
+[18:23:25] Server started
+[18:23:28] [CONNECT] ::ffff:127.0.0.1 (Cumsi | 350867809)
+[18:23:59] Stopping resource chat
+[18:23:59] Stopping resource main
+[18:23:59] Stopped resource main
+[18:23:59] Stopped resource chat
+[18:23:59] Server shutdown

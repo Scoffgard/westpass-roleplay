@@ -1,0 +1,4 @@
+db*.mjs
+/node_modules
+/cache
+/crashdumps
