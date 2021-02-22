@@ -74,4 +74,11 @@ alt.on('keyup', (key) => {
   }
 })
 
+alt.on('hideHUD', () => {
+  hidden = !hidden;
+  game.displayHud(!hidden);
+  game.displayRadar(!hidden);
+  view.emit('hideChat', hidden);
+})
+
 export default { pushMessage, pushLine };
