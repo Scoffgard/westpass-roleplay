@@ -28,11 +28,5 @@ alt.on('playerConnect', async player => {
 
     const chars = await db.query(`SELECT * FROM characters WHERE ownerID="${results[0].id}"`);
 
-    if (!chars[0]) return chat.send(player, '{FF0000}Vous n\'avez pas de personnages, faites {FFAAAA}/createChar {FF0000}pour en creer un.');
-
-    chat.send(player, 'Liste de vos personnages :');
-    for (let char of chars) {
-        chat.send(player, `${char.characterID} - ${char.name}`);
-    }
-    chat.send(player, 'Exécutez la commande /choiceChar <id> pour choisir votre personnage.');
+    alt.emitClient(player, 'view:serverLaunch', 'characterChoice', chars, true, 'chars');
 });
