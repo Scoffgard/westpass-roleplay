@@ -5,6 +5,7 @@
 }
 
 .list {
+    text-align: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -15,7 +16,12 @@
     flex-direction: column;
 }
 
+h3 {
+    margin-top: 2vh;
+}
+
 .character {
+    background-color: rgba(75, 75, 75, 0.5);
     width: 18vw;
     height: 4vh;
     transition: 0.2s ease;

@@ -12,7 +12,7 @@ alt.on('chars', data => {
         div.onclick = () => selectCharacter(char.characterID);
         div.classList.add('character');
         div.innerHTML = `<p>${char.characterID} - ${char.name}</p>`;
-        list.insertBefore(div, document.getElementById('validation'));
+        list.insertBefore(div, document.getElementById('charnew'));
     }
 });
 
